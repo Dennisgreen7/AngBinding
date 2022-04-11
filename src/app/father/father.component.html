@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="col-4 offset-4">
+    <div class="col-6 offset-4">
         <p>Select car company</p>
         <select #Car class="form-select" aria-label="Default select example" (change)="getCar(Car.value)">
             <option value="Select">Select car</option>
@@ -17,7 +17,7 @@
     </div>
 </div>
 <div class="row">
-    <div class="col-4 offset-4" *ngIf="showCar">
+    <div class="col-6 offset-4" *ngIf="showCar">
         <app-child [item]="chosenCar"></app-child>
     </div>
 </div>
