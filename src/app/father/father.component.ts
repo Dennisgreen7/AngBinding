@@ -15,7 +15,7 @@ export class FatherComponent implements OnInit {
   showCar: boolean = false;
   chosenCar: Car = {carName:'',img:''};
   cars: Car []= [
-    {carName:'Ferrari',img:'docs/assets/images/Ferrar.jpg'},
+    {carName:'Ferrari',img:'https://upload.wikimedia.org/wikipedia/commons/4/4e/Red_2019_Ferrari_SF90_Stradale_%2848264238897%29.jpg'},
     {carName:'Lamborghini',img:'docs/assets/images/Lamborghini.jpg'},
     {carName:'Mercedes-Benz',img:'docs/assets/images/MercedesBenz.jpg'}
   ];
