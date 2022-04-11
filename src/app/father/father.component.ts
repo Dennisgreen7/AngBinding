@@ -15,9 +15,9 @@ export class FatherComponent implements OnInit {
   showCar: boolean = false;
   chosenCar: Car = {carName:'',img:''};
   cars: Car []= [
-    {carName:'Ferrari',img:'/assets/images/Ferrar.jpg'},
-    {carName:'Lamborghini',img:'/assets/images/Lamborghini.jpg'},
-    {carName:'Mercedes-Benz',img:'/assets/images/MercedesBenz.jpg'}
+    {carName:'Ferrari',img:'docs/assets/images/Ferrar.jpg'},
+    {carName:'Lamborghini',img:'docs/assets/images/Lamborghini.jpg'},
+    {carName:'Mercedes-Benz',img:'docs/assets/images/MercedesBenz.jpg'}
   ];
   getCar(car: string) {
     if (car === "Select") {
